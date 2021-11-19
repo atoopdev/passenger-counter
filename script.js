@@ -1,23 +1,24 @@
 // replaces text in h2 with id count-el to 5 from 0
 // document.getElementById("count-el").innerText = 5;
 
+let countEL = document.getElementById("count-el");
+console.log(countEL);
+
 //counter for tracking passengers
 // initialize as 0
 let count = 0;
-
-// listen for clicks on increment button
-
-// when button is clicked, increment count
-
 console.log("Contents of count var: ", count);
 
-// change count-el in html
+// listen for clicks on increment button - lives in html
 
-
-
+// when button is clicked, increment count
 function increment(){
     console.log("Button click!");
-    // count = count+1;
+    count = count+1;
+    // innertext references text inside tags
+    // change count-el in html
+    countEL.innerText = count;
+    console.log(count);
 }
 
 
@@ -27,7 +28,34 @@ function increment(){
 
 
 
+
+
+
+
+
 // lesson scratch pad area
+
+// let lapsCompleted = 0;
+
+// function lapIncrement(){
+//     lapsCompleted = lapsCompleted +1;
+//     console.log(lapsCompleted);
+// }
+
+// lapIncrement();
+// lapIncrement();
+// lapIncrement();
+
+// let lap1 = 34;
+// let lap2 = 33;
+// let lap3 = 36;
+
+// function totalLapTime(){
+// let laptimetotal = lap1 + lap2 + lap3;
+// console.log(laptimetotal);
+// }
+
+// totalLapTime();
 
 // let bonusPoints = 50;
 // bonusPoints += 50;
