@@ -66,6 +66,12 @@ button {
 a {
   color: #8c6057;
 }
+
+#increment-btn:hover {
+  background: white;
+  color: #ef3054;
+}
+
 footer {
   margin-top: 425px;
   color: #5c5346;
