@@ -18,6 +18,8 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   overflow-x: hidden;
+
+  font-family: sans-serif;
 }
 
 h1 {
@@ -90,5 +92,11 @@ footer {
 
   footer {
     margin-top: 1000px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .counter-card {
+    margin: 250px auto;
   }
 }
