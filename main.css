@@ -67,6 +67,11 @@ button {
   background: #36453b;
 }
 
+#welcome-el {
+  color: #36453b;
+  font-weight: 600;
+}
+
 a {
   color: #8c6057;
 }

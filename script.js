@@ -1,7 +1,13 @@
 // replaces text in h2 with id count-el to 5 from 0
 // document.getElementById("count-el").innerText = 5;
 
+let name = "Amanda";
+let greeting = "Welcome, ";
+
+let welcomeEL = document.getElementById("welcome-el");
 let countEL = document.getElementById("count-el");
+
+welcomeEL.innerText = greeting + name + "!"; 
 console.log(countEL);
 
 //counter for tracking passengers
@@ -37,6 +43,25 @@ function save(){
 
 
 // lesson scratch pad area
+
+// let name = "Amanda";
+// let greeting = "Hi, my name is ";
+// let myGreeting = greeting + name;
+// console.log(myGreeting);
+
+// console.log(4+5);
+// console.log("2" + "4");
+// console.log("5" + 1);
+// console.log(100 + "100");
+
+
+
+// let username = "amanda";
+// let message = "You have three new notifications.";
+// console.log(message);
+
+// let messageToUser = username + ", " + message;
+// console.log(messageToUser)
 
 // let lapsCompleted = 0;
 
