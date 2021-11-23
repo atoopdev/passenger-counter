@@ -72,6 +72,10 @@ button {
   font-weight: 600;
 }
 
+#save-el {
+  color: #36453b;
+}
+
 a {
   color: #8c6057;
 }

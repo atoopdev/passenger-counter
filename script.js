@@ -7,6 +7,7 @@ let greeting = "Welcome, ";
 let welcomeEL = document.getElementById("welcome-el");
 let countEL = document.getElementById("count-el");
 
+// outputs name and greeting to webpage
 welcomeEL.innerText = greeting + name + "!"; 
 console.log(countEL);
 
@@ -15,12 +16,14 @@ console.log(countEL);
 let count = 0;
 console.log("Contents of count var: ", count);
 
+let saveEL = document.getElementById("save-el");
+
 // listen for clicks on increment button - lives in html
 
 // when button is clicked, increment count
 function increment(){
     console.log("Button click!");
-    count = count+1;
+    count +=1;
     // innertext references text inside tags
     // change count-el in html
     countEL.innerText = count;
@@ -28,7 +31,8 @@ function increment(){
 }
 
 function save(){
-    console.log(count);
+    let newcount = " " + count + " - ";
+    saveEL.innerText += newcount;
 }
 
 
