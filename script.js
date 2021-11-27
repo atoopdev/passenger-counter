@@ -8,7 +8,7 @@ let welcomeEL = document.getElementById("welcome-el");
 let countEL = document.getElementById("count-el");
 
 // outputs name and greeting to webpage
-welcomeEL.innerText = greeting + name + "!"; 
+welcomeEL.textContent = greeting + name + "!"; 
 console.log(countEL);
 
 //counter for tracking passengers
@@ -26,13 +26,13 @@ function increment(){
     count +=1;
     // innertext references text inside tags
     // change count-el in html
-    countEL.innerText = count;
+    countEL.textContent = count;
     console.log(count);
 }
 
 function save(){
     let newcount = " " + count + " - ";
-    saveEL.innerText += newcount;
+    saveEL.textContent += newcount;
 }
 
 
