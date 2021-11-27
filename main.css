@@ -54,7 +54,7 @@ button {
   padding-bottom: 10px;
   color: white;
   font-weight: bold;
-  width: 200px;
+  width: 150px;
   margin-bottom: 5px;
   border-radius: 5px;
 }
@@ -73,7 +73,10 @@ button {
 }
 
 #save-el {
+  /* margin-top: 185px; */
   color: #36453b;
+  font-weight: 600;
+  margin-top: 0;
 }
 
 a {
@@ -86,7 +89,7 @@ a {
 }
 
 footer {
-  margin-top: 425px;
+  margin-top: 400px;
   color: #5c5346;
 }
 

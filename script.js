@@ -33,9 +33,13 @@ function increment(){
 function save(){
     let newcount = " " + count + " - ";
     saveEL.textContent += newcount;
+    reset();
 }
 
-
+function reset(){
+    count = 0;
+    countEL.textContent = count;
+}
 
 
 
