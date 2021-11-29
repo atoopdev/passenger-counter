@@ -52,6 +52,41 @@ function reset(){
 
 // lesson scratch pad area
 
+// let myPoints = 3;
+//  function add3Points(){
+//      myPoints += 3;
+//      console.log("Adding 3: ", myPoints);
+//  }
+
+//  function remove1Point(){
+//     myPoints -= 1;
+//     console.log("Subtracting 1: ", myPoints);
+// }
+
+// add3Points();
+// add3Points();
+// add3Points();
+// remove1Point();
+// remove1Point();
+
+
+
+
+// let name1 = "Linda";
+// let greeting1 = "Hi there";
+
+// function welcome(){
+//     console.log(greeting1 +", " + name1 +"!");
+// }
+
+// welcome();
+
+// let firstname = "Amanda";
+// let lastname= "Toop";
+
+// let fullname = firstname + " " + lastname;
+// console.log(fullname);
+
 // let name = "Amanda";
 // let greeting = "Hi, my name is ";
 // let myGreeting = greeting + name;
