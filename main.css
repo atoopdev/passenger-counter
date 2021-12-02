@@ -8,6 +8,7 @@ html {
 *:before,
 *:after {
   box-sizing: inherit;
+  /* height: 100%; */
 }
 
 body {
@@ -21,25 +22,28 @@ body {
 
   font-family: sans-serif;
   margin: 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 h1 {
   color: #f0f2ef;
+  font-size: 1.5rem;
 }
 h2 {
   color: #f0f2ef;
+  font-size: 1rem;
 }
 .content-wrapper {
   /* border: 1px solid red; */
-  margin-right: auto;
-  margin-left: auto;
-
   max-width: 345px;
 
   padding-right: 5px;
   padding-left: 5px;
 
-  text-align: center;
+  flex: 1 0 auto;
 }
 
 .counter-card {
@@ -89,37 +93,9 @@ a {
   color: #ef3054;
 }
 
+.footer {
+  flex-shrink: 0;
+}
 footer {
-  margin-top: 400px;
   color: #5c5346;
-}
-
-@media screen and (min-width: 414px) {
-  footer {
-    margin-top: 500px;
-  }
-}
-@media screen and (min-width: 768px) {
-  .counter-card {
-    margin: 150px auto;
-  }
-
-  footer {
-    margin-top: 675px;
-  }
-}
-@media screen and (min-width: 1024px) {
-  .counter-card {
-    margin: 200px auto;
-  }
-
-  footer {
-    margin-top: 1000px;
-  }
-}
-
-@media screen and (min-width: 1440px) {
-  .counter-card {
-    margin: 250px auto;
-  }
 }

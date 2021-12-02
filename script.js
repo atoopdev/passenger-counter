@@ -31,7 +31,7 @@ function increment(){
 }
 
 function save(){
-    let newcount = " " + count + " - ";
+    let newcount = " - " + count + "  ";
     saveEL.textContent += newcount;
     reset();
 }
